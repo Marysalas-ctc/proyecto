@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+}
+.main-header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url("https://source.unsplash.com/iVlCC8dntvw");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+    font-family: Dosis, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-nav{
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    padding: 28px 48px;
+    font-size: 1.3rem;
+   
+}
+
+ul{
+  
+    display: flex;
+    margin-left: auto;
+    margin-right: 1px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 28px 50px;
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 140px;
+  
+  }
+
+ ul li a:hover{
+    background: rgb(63, 63, 197);
+   
+ }
+
+.content-header{
+    color: white;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content-header h1 {
+    font-size: 7rem;
+}
+
+.content-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+.content-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 11px 10px;
+    background: rgb(63, 63, 197);
+    color:cornsilk
+}
+
+.content-header a:hover{
+    background:rgb(208, 31, 31);
+    border: 2px solid white;
+    padding: 11px 10px;
+}
+
+.linea,
+.linea3{
+    position: absolute;
+    width: 40px;
+    height:75% ;
+    background: rgba(12, 12, 175, 0.241);
+    right: 1%;
+    top:264px;
+    transform: rotate(15deg);
+    z-index: 1; 
+}
+.linea2{
+    position: absolute;
+    width: 40px;
+    height:130% ;
+    background: rgba(12, 12, 175, 0.241);
+    right: 5%;
+    top:-50px;
+    transform: rotate(15deg);
+    z-index: 1; 
+}
